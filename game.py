@@ -12,7 +12,7 @@ def play_game():
     passes = [False, False]
     current_player = 0
     while True:
-        print(f"\n Player {current_player + 1}'s turn")
+        print(f"\n Player {current_player + 1}is turn")
         print(f"Scores  Player 1: {scores[0]}, Player 2: {scores[1]}")
         choice = turn_decision()
         if choice == "r":
